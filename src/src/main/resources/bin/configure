@@ -1,0 +1,11 @@
+#!/bin/ksh
+
+releasearea=__RELEASEAREADIR__
+installdir=__BASEDIR__
+
+# Source tools.ksh helper functions
+. __TOOLSDIR__/tools.ksh
+
+# Replace all Installer 5.3 supported placeholders (__BASEDIR__ etc.) in the script
+replace_installer_keywords ${releasearea} ${installdir}/sas/bin/macro_server/java/java_eapi_eapi_34.ksh
+checkResult $? "Updated java_eapi_eapi_34.ksh with the install path"

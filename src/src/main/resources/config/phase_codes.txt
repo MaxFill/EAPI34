@@ -1,0 +1,107 @@
+ActOK		586 Service Activations OK
+AddGrpServOK	590 Add Service Group OK
+BlockOK		588 Subscriber Disconnected OK
+CeaseExportNOK	526 NP Export Ceased and Subscriber Deleted OK
+CeaseExportOK	518 NP Export Ceased and Subscriber Reconnected OK
+CeaseImportOK	525 NP Import Ceased OK
+ChLocalDirOK	592 Change Local Directory OK
+ChRemoteDirOK	591 Change Remote Directory OK
+ChaGrpServOK	590 Change Service Group OK
+ChangeAUCOK	596 Change Subscriber Authentication OK
+ChangeBillSubsOK 590 Change Billed Subscriber OK
+ChangeClassOK   590 Change Subscriber Class OK
+ChangeCnumOK    593 Change C-Number OK
+ChangeEquipNumOK 590 Change Equipment Number OK
+ChangeGrpSpecOK	598 Change Subscriber Group Specification OK
+ChangeLocOK	592 Location number change OK
+ChangeMSNOK     595 Line change OK
+ChangeMWI1OK    590 Change Message Waiting Indicator 1 OK
+ChangeMWI2OK    590 Change Message Waiting Indicator 2 OK
+ChangeMainNumOK 590 Change Main Phone Number OK
+ChangePcodeOK	597 Change Subscriber Passcode OK
+ChangeSernumOK  594 Change Serial Number OK
+ChangeSubsOK	591 Subscriber number change OK
+ChangeSubsidOK  590 Change Subscriber ID OK
+ChangeSuppOK	599 Change Supplementary Services OK
+ChangeTutorOK   590 Change Tutorial Status OK
+CopyGreetingOK	597 Copy Voicemail Greeting OK
+CreateAMSISDNOK 516 Create Additional MSISDN OK
+CreateAUCSubsOK	511 Create AUC Subscriber OK
+CreateAUCssdOK	511 Create Subscriber Authentication SSD Update OK 
+CreateAbdOK     513 Create Abbreviated Dialling OK
+CreateBasicOK	512 Create Basic Service OK
+CreateCUGOK	591 Create Closed User Group OK                                                                                    
+CreateCharOK    511 Create Class Characteristics OK 
+CreateConnOK	511 Create Subscriber Connection OK
+CreateCosOK	511 Create Class of Service OK
+CreateCustOK    519 Create OK
+CreateEquipOK   511 Create OK
+CreateFeatOK	511 Create Features OK
+CreateGrpSpecOK	511 Create Subscriber Group Specification OK
+CreateSubsOK	511 Create Subscriber OK
+CreateSubscpOK	511 Create Subscriber Subscription OK
+DeactOK		587 Service Deactivations OK
+DefineGPRSOK    516 Define GPRS OK
+DefineSuppOK	581 Define Supplementary Services OK
+DelGrpServOK	590 Delete Service Group OK
+DeleteAMSISDNOK	523 Delete Additional MSISDN OK
+DeleteAbdOK     520 Delete Abbreviated Dialling OK
+DeleteAucOK	523 Delete from AUC OK
+DeleteBasicOK	522 Delete Basic Service OK
+DeleteCUGOK	593 Delete Closed User Group OK                                                                                    
+DeleteCharOK    521 Delete Class Characteristics OK
+DeleteConnOK	521 Delete Subscriber Connection OK
+DeleteCosOK     521 Delete Class of Service OK
+DeleteCustOK    528 Delete OK
+DeleteEquip     527 Delete OK 
+DeleteFeatOK	521 Delete Features OK
+DeleteGPRSOK    523 Delete GPRS OK
+DeleteGrpSpecOK	521 Delete Subscriber Group Specification OK
+DeleteImsiOK    529 Delete Imsi of Subscriber OK
+DeleteNoEntry	523 No Entry in Single Number DB
+DeleteSubsOK	521 Delete Subscriber OK
+DispAUCSubsOK	534 Display AUC Subscriber Data OK
+DispActAlarmOK  535 Display Active Alarms OK
+DispAucFailOK	536 Display AUC Failure Details OK
+DispBasicOK	532 Display Basic Services OK
+DispCharOK      531 Display Class Characteristics OK
+DispCnumOK      589 Display C-Number OK
+DispCosOK     	532 Display Class of Service OK
+DispEntryOK     540 Display SRR data
+DispEquipOK     538 Display EIR data
+DispFeatOK	539 Display Features OK
+DispGrpOK	533 Display Subscriber Class Group Specification OK
+DispHlrNeidOK   586 Display HLR Network Element ID OK
+DispJambNeidOK	586 Display Jambala Network Element ID OK
+DispLocOK	537 Display Subscriber Location OK
+DispNumFlexOK	545 Display Number Flexibility OK
+DispSubsOK	531 Display Subscriber Data OK
+DispSuppOK	533 Display Supplementary Services OK
+DispUmsNeidOK   588 Display UMS Network Element ID OK
+DispVmsNeidOK   587 Display VMS Network Element ID OK
+ExportOK	524 NP Export OK
+FileTransferOK	590 File Transfer OK
+General		510 General message
+IMSIChgOK	583 IMSI changeover OK
+ImportOK	517 NP Import OK
+MSISDNChgOK	590 MSISDN changeover OK
+ModCUGOK	592 Modify Closed User Group OK
+ModGrpRinOK	590 Modify Group Ringing OK
+ModifyAFacilOK  544 Modify Additional Facilities OK
+ModifyAbbrevOK  545 Modify Abbreviated Diallings OK
+ModifyBasicOK	542 Modify Basic Services OK
+ModifyCharOK    541 Modify Class Characteristics OK
+ModifyCosOK     542 Modify Class of Service OK
+ModifyCustOK    546 Modify Customer OK
+ModifyFacilOK   543 Modify Facilities OK
+ModifyFeatOK	547 Modify Features OK
+ModifySubsOK	541 Modify Subscriber Data OK
+ProvOK		584 Service Provisionings OK
+PurgeSisOK      530 Purge command OK
+ResetOK		590 Reset Subscriber OK
+SMSmoOK		515 Create Short Message Service MO/PP OK
+SMSmtOK		514 Create Short Message Service MT/PP OK
+SetSuppOK	582 Set Supplementary Services OK
+SubsRelocOK	590 Subscriber Relocation OK
+UnBlockOK	589 Subscriber (Re)Connected OK
+WithdOK		585 Service Withdrawals OK

@@ -1,0 +1,422 @@
+#PSTN    AS      AS      Alarm service
+DP      DPCAN   PA      Cantonese DP service
+DP      DPENG   PB      English DP service
+DP      DPPAR1  P1      Call back phone number
+DP      DPPAR2  P2      Account Number
+DP      DPPAR3  P3      Subscriber's id
+HLR	ACB	90      ALL CALL BARRING
+HLR	ACB	A7	Automatic Call Barring
+HLR	ACC	AC	Account Codes
+HLR	AOC	71    	Advice of Charge
+HLR	AOCI    72      Advice of Charge (information)
+HLR	AOR	A6	Automatic Origination Restriction 
+HLR	ASU	18	Operator-Controlled Absent Subscriber Service
+HLR	ASYNC	AS	HSCSD Asynchronous data
+HLR	AUC	AU	Authentication
+HLR	BAIC	9A    	Barring of All Incoming Calls
+HLR	BAOC	92    	Barring of All Outgoing Calls
+HLR	BAOCS	91	All Barring of all Outgoing Call Services
+HLR	BICRO	9B    	Barring of all Incoming Calls when Roaming Outside the Home PLMN Country
+HLR	BOIC	93    	Barring of All Outgoing International Calls
+HLR	BOIEXH	94    	Barring of All Outgoing International Calls Except those directed to the Home PLMN Country
+HLR	BORO	9N	Barring of outgoing calls when roaming outside home PLMN
+HLR	BS16	F8	Basicservice "Data service 9600"
+HLR	BS26	B6	Basic service B26
+HLR	BS90	G0	GPRSservice "GPRS"
+HLR	CA	N3	Charging area
+HLR	CAMEL	O5	CAMEL 	
+HLR	CAMELSO	CA	CAMEL Subscription Options
+HLR	CAPL	CP	Channel Allocation Priority Level
+HLR	CAT	S1	Subscriber Category
+HLR	CAW	41    	Call Waiting
+HLR	CBA	25	Outgoing Call Barring Trunk Discrimination
+HLR	CCB	97	Subscriber-Controlled Code Control Barring 
+HLR	CCC	CC	Control Channel Capability
+HLR	CFB	29    	Call Forwarding on Mobile Subscriber Busy
+HLR	CFNRC	2B    	Call Forwarding on Mobile Subscriber Not Reachable
+HLR	CFNRY	2A    	Call Forwarding on No Reply
+HLR	CFU	21	Call Forwarding Unconditional
+HLR	CHC	N2	Charging class
+HLR	CIN	32	Call Transfer IN service
+HLR	CLIP	11	Calling Line Identification Presentation
+HLR	CLIR	12	Calling Line Identification Restriction
+HLR	CNIP	NA	Calling Name Identification Presentation
+HLR	CNIR	27	Calling Name Identification Restriction
+HLR	COLP	13	Connected line identification presentation
+HLR	COLR	14	Connected line identification restriction
+HLR	CT	31	Call Transfer
+HLR	CUG	61    	Closed User Group
+HLR	DBSG	2K	Default Basic Service Group
+HLR	DCF	2H	Default Call Forwarding	
+HLR	DPR	26	Data Privacy
+HLR	DUT	DU	Digital Voice Privacy (DUT)
+HLR	DVP	DV	Digital Voice Privacy (DVP)
+HLR	EMA	EM	Emergency Area
+HLR	EXTIN	EI	Extended Intelligent Network Data
+HLR	GPRS	O8
+HLR	HB	N4	Hot billing
+HLR	HOLD	42    	Call Hold
+HLR	HPN	HP	High Penetration Notification
+HLR	ICI	43    	Immediate Call Itemisation
+HLR	ICK	O7	Intelligent Network Category Key
+HLR	ICS	IC	Interception Service
+HLR	INSP	O1	Intelligent Network Service Profile
+HLR	LCS	LC	LCS client address
+HLR	LLR	2L	Land Line Retreival
+HLR	M8ICK	N6	Intelligent Network Category Key
+HLR	M8SSET	N5	Service set index
+HLR	MAR	MA	Mobile Autonomous Registration
+HLR	MC	MC	Malicious Call Trace      
+HLR	MCD	C3	Mobile Call Delivery
+HLR	MCN	73	Mobile Charging Area Notification
+HLR	MM	02	Mobile Management
+HLR	MM	O2
+HLR	MMINT	M1	Mobility Management IN Triggering
+HLR	MPTY	51    	Multi Party Service
+HLR	MSA	MS	Mobile Subscription Area
+HLR	MVP     81      Mobile Voice Privacy
+HLR	MWI     MW      Message Waiting Indicator
+HLR	NAM	NM
+HLR	OBI	9C 	Operator Determined Barring of Incoming Calls
+HLR	OBO	9D 	Operator Determined Barring of Outgoing Calls
+HLR	OBOPRE	9F 	Operator determined barring of outgoing premium rate calls (entertainment)
+HLR	OBOPRI	9G 	Operator determined barring of outgoing premium rate calls (information)
+HLR	OBR	9M 	Operator determined barring of roaming outside home PLMN
+HLR	OBRFN	9P 	Operator determined barring of registration of forward-to-number
+HLR	OBSSM	9H 	Operator determined barring of supplementary services management
+HLR	OBZI	9Q	Operator Determined Barring of Incoming Inter-Zonal Calls (the code ends with capital letter o)
+HLR	OBZO	9R	Operator Determined Barring of Outgoing Inter-Zonal Calls
+HLR	OCCF	2G	Operator Controlled call forwarding
+HLR	OCSI	C1	Originating Camel Subscription Information
+HLR	OFA	OF	Origin for forwarded-to number analysis
+HLR	OIN	44    	Originating Intelligent Network
+HLR	OLA	OL	Origin for Location Analysis
+HLR	OOSCF1	1O
+HLR	OOSCF2	2O
+HLR	OOSCF3	3O
+HLR	OOSCF4	4O
+HLR	OPA	OP	Origin for Procedure Analysis
+HLR	OSB1	9I 	When registered in the HPLMN operator specific barring (type 1)
+HLR	OSB2	9J 	When registered in the HPLMN operator specific barring (type 2)
+HLR	OSB3	9K 	When registered in the HPLMN operator specific barring (type 3)
+HLR	OSB4	9L 	When registered in the HPLMN operator specific barring (type 4)
+HLR	PAI	AI	Positioning Allowed Indicator
+HLR	PCS	PC	Personal Communiction Service
+HLR	PIC	N7	Preferred Interexchange Carrier
+HLR	PLOCK	N8	Perferred Interexchange Carrier Lock
+HLR	PNI	N9	Private Numbering Index
+HLR	PPP	PP	Prepaid
+HLR	PS	PS	Priority
+HLR	RDI	N1	Redirection destination index
+HLR	RED	R1	Redundant Condition
+HLR	ROAM	9Z	Active ODB categories when roaming
+HLR	SMS	04	Short Message Service
+HLR	SMS	O4
+HLR	SMSORIG	SM	Mobile Originating Short Message Service
+HLR	SMSTERM	ST	Mobile Terminating Short Message Service
+HLR	SOCB	9E 	Subscription Option Control of Barring Services
+HLR	SOCFB	2C    	Subscription option call forwarding on mobile subscriber busy
+HLR	SOCFRC	2D      Subscription option call forwarding on mobile subscriber not reachable
+HLR	SOCFRY	2E    	Subscription option call forwarding on no reply
+HLR	SOCFU	2F      Subscription option call forwarding unconditional
+HLR	SOCLIP	15	Subscription option calling line identification presentation
+HLR	SOCLIR	16	Subscription option calling line identification restriction
+HLR	SOCOLP	17	Subscription option connected line identification presentation
+HLR	SODCF	2I	Default Call Forwarding	no notification
+HLR	SOSDCF	2J	Default Call Forwarding	all conditional call forwarding
+HLR	SPINI	PR	Pin reset
+HLR	SPN	03	Single Personal Number
+HLR	SRM	SR	Subscriber Restricted Mobility
+HLR	SS	O3		
+HLR	SSET	O6	Service set index
+HLR	STYPE	S2	Subscription Type
+HLR	SYNC	SY	HSCSD Synchronous data
+HLR	TBF	2Y	Call Transfer on Busy, Fixed
+HLR	TCL     TC      Type of subscriber
+HLR	TCSI	C2	Terminating Camel Subscription Information
+HLR	TIF	TF	Translation Information Flag
+HLR	TIN	45    	Terminating Intelligent Network
+HLR	TNF     2N      Transfer on No Reply, Fixed
+HLR	TRC	S3	Subscriber Tracing
+HLR	TS21	04	Teleservice "Short Message MT/PP"
+HLR	TS22	05	Teleservice "Short Message MO/PP"
+HLR	TS71	G1	Teleservice "GPRS Short Message MT/PP"
+HLR	TS72	G2	Teleservice "GPRS Short Message MO/PP"
+HLR	TSD1	AT	Teleservice "Auxiliary Telephone"
+HLR	TSMO	TS
+HLR	TSMO	TS	Transfer of short message option
+HLR	USSD	P6	Prepaid USSD (Unstructured Supplementary Services Data) Callback Roaming
+HLR	UUS1	U1	User-to-user signalling, service 1
+HLR	UUS2	U2	User-to-user signalling, service 2
+HLR	UUS3	U3	User-to-user signalling, service 3
+HLR	VM	VM	Voice Mail
+HLR	VMP	V3	Voice Mail (identified with Peripheral Equipment Gateway (PEG))
+HLR	XX	XX	XX
+HLR     ACF     20      ALL CLL FORWARDING
+HLR     ASLC    AM
+HLR     BIOCS   99      BAIC and BICRO together
+HLR     BLFC    9O      Barring of All Outgoing Call Except Local and Free Charge Calls
+HLR     BLOC    9S      Barring of all Local Calls Only
+HLR     BLOF    9W      Barring of All Outgoing Calls Except Local, Operator and Free Charge
+HLR     BLOP    9U      Barring of All Outgoing Calls Except Local and Operator Calls
+HLR     BSLC    BM
+HLR     CCA     19      Subscriberr-Controlled Absent Subscriber Service
+HLR     CCB     9V      Collect Call Barring
+HLR     CNCW    40      Cancel Call Waiting
+HLR     COS     2M      Class of service
+HLR     CRNV    CR
+HLR     CUNV    CU
+HLR     DND     ND      Do Not Disturb
+HLR     DPCAN   PA      Cantonese DP service
+HLR     DPENG   PB      English DP service
+HLR     DPPAR1  P1      Call back phone number
+HLR     DPPAR2  P2      Account Number
+HLR     DPPAR3  P3      Subscriber's id
+HLR     DUOLI   F7      Duoli
+HLR     FMS     FS      Fax mail service
+HLR     HOTL    A2      Hot Line
+HLR     HOTLB   A5      Bad Payer Hot Line
+HLR     ISN     9T      Iridium Satellite Network
+HLR     OBA     OB      Operator Determined Barring of all incoming and outgoing calls
+HLR     OICK    46      Originating IN Category Key
+HLR     POC1    1P
+HLR     POC2    2P
+HLR     POC3    3P
+HLR     POC4    4P
+HLR     POC5    5P
+HLR     PWD     82      Call Barring Password
+HLR     REGSER  RG      Regional Service
+HLR     SCSG	P4	Subscriber connection to subscribergroup
+HLR     SPINI_I PI      Pin reset for international calls
+HLR     SPINI_L PL      Pin reset for local calls
+HLR     SPINI_T PT      Pin reset for toll calls
+HLR     TICK    47      Terminating IN Category Key
+HLR     VM      V1      Voice Mail
+HLR     VM      V2      Voice Mail
+IN      BIC     9A      Barring of Incoming Calls
+IN      BOC     92      Barring of Outgoing Calls
+IN      CAW     41      Call Waiting
+IN      CFU     22      Call Forwarding Unconditional
+IN      CLIP    11      Calling Line Identification Presentation
+IN      CLIR    12      Calling Line Identification Restriction
+IN      HOTL    A2      Hotline   
+IN      MPTY    51      Multi Party Service
+IN      VM      VM      Voice Mail  
+NMT	3PTY	51    	Three Party Service
+NMT	ACB	9D	All call barring
+NMT	APU	AP	Advance Premium Used
+NMT	BAOCOPE	91    	Barring of Outgoing Calls (operator controlled)
+NMT	BAOCSUB	90    	Barring of Outgoing Calls (subscriber controlled)
+NMT	BOIC	93	Barring of all international calls
+NMT	BOR	9M	Barring of the roaming
+NMT	CFB	29    	Call Forwarding on Mobile Subscriber Busy
+NMT	CFBNRY	2D	Call forwarding at busy and no answer
+NMT	CFC	2Z    	Call Forwarding on Congestion
+NMT	CFNRC	2B  	Call Forwarding on Not Reachable
+NMT	CFNRR	2C  	Call Forwarding on No Reply and Not Reachable
+NMT	CFNRY	2A    	Call Forwarding on No Reply
+NMT	CFU	21	Call Forwarding Unconditional
+NMT	CHMSR	60	Change separate MS call record file selection
+NMT	CTAB	9Y	Call Transfer Announcement Barring
+NMT	CW	41    	Call Waiting
+NMT	DCB	9W	Diverted Call Barring
+NMT	MDT	14    	Mobile Data Transmission
+NMT	MSV	71	Maintenance Supervision
+NMT	OBI	9C 	Barring of Incoming Calls (operator controlled)
+NMT	U2MTXV	65	Send U-2 message to MTXV
+NMT	U3MTXv	66	Send U-3 message to MTXV
+NMT	UNO	72	Universal Number
+NMT	VMI	VI	Voice Mail Indicator
+NMT     BAT     31      Battery saving
+NMT     CLIR    12      Calling line identification restriction 
+NMT     HB      N4      Hot Billing
+NMT     ICK     N6      Intelligent Network Category Key 
+NMT     MPI	MP	Short Message Pending Indicator
+NMT     SIS     30      SIS
+PSTN	00	00	Contract of 00-primarily
+PSTN	0NET	0N	Contract of 0-primarily
+PSTN	ABR	SP	Announcement Before Routing
+PSTN	ADC	71	Advice of Duration and Charge
+PSTN	ADCI	72	Advice of Charge for ISDN 
+PSTN	AR	AR	Automatic Recall
+PSTN	ARW	AW	Automatic Roaming Wide
+PSTN	BA	BA	Billing Agreement
+PSTN	BIC	9A	Barring of Incoming Calls
+PSTN	BOC	92	Barring of Outgoing Calls
+PSTN	CAC	AC	Call Account Coding
+PSTN	CAW	41	Call Waiting
+PSTN	CBACK	CB	Call Back (Call return)
+PSTN	CCB     9V      Collect Call Blocking (Automatic Collect Call Block)
+PSTN	CDE	CD	Call deflection
+PSTN	CDW	CW	Call Delivery Wide
+PSTN	CEP	CE	Cellular Extension Phone Service(Group Ringing)
+PSTN	CFB	29	Call forwarding when busy
+PSTN	CFNRY	2A	Call forwarding when no reply
+PSTN	CFNRYF	2B	Call Forwarding no Reply Fixed
+PSTN	CFU	21	Immediate Call Forwarding
+PSTN	CFUF    22      Call forwarding unconditional fixed number
+PSTN	CHNUM	A3	Change Number Message
+PSTN	CKEY	KW	Procedure of Change of the Keyword
+PSTN	CKSN	KN	Change of keeping same number
+PSTN	CLIP	11	Calling Line Identification Presentation
+PSTN	CLIR	12	Calling Line Identification Restriction
+PSTN	CNB	C2	Calling Name Blocking
+PSTN	CND	C1	Calling Name Delivery
+PSTN	CNLIP   13	Connected Line Identification Presentation
+PSTN	CNLIR	14	Connected Line Identification Restriction 
+PSTN	CNUD	10	Calling Number Delivery
+PSTN	COC	CO	Charging Origin Category
+PSTN	CP	CP	Call charge meter and polarity reversal category
+PSTN	CPU	PU	Call Pick Up 
+PSTN	CSO	CS	CDMA Service Option	
+PSTN	CXR	CX	Call Transfer
+PSTN	DBLTEL	DN	Double Telephone Numbers
+PSTN	DC	DC	Detailed Charging
+PSTN	DDIN	DD	Direct Dialling in
+PSTN	DGT	DG	Digitone
+PSTN	DIGIT	RD	Digital Connectivity of Teleservices
+PSTN	DONT	ND	Do Not Disturb
+PSTN	DR	DR	Distinctive Ringing
+PSTN	ECT	ET	Explicit Call Transfer
+PSTN	FM	FM	Follow Me
+PSTN	GIC	GI	Group Intercom
+PSTN	HN	HN	Hidden Number
+PSTN	HOTL	A2	Hot Line
+PSTN	IFC	IF	Inhibition of Forwarded Calls
+PSTN	INT	I1	Intrusion
+PSTN	LOD	LD	Line Overflow Directory Number
+PSTN	MACI	MC	Malicious Call Identification
+PSTN	MPTY	51	Multi Party Service
+PSTN	MWI	MW	Message Waiting Indicator
+PSTN	MWT	MT	Message Waiting Tone
+PSTN	OBO	9E	Operator determined Barring of Outgoing Calls
+PSTN	OCG	OC	Origin for charging
+PSTN	PIH	IH	Procedure Invoked Call Hold
+PSTN	PRSCB	9D	PRS Call Barring
+PSTN	PS	PS	Priority Service
+PSTN	PSRS	SS	Authorized PSID/RSIPs(Private System Idenfication/Residential System Identification)
+PSTN	QC	QC	Queue Call
+PSTN	RAS	RA	Restricted Access to B-Subscriber
+PSTN	REDIAL	NR	Last Number Redial
+PSTN	REMC	A0	Reminder Call
+PSTN	RSF	RS	Ring-Splash on Forwarding
+PSTN	SACB	9S	Subscirber Activated Call blockings
+PSTN	SAD	SA	Subscriber Addressing
+PSTN	SCD	S3	Selective Call Diversion
+PSTN	SCWID	3C	Call ID on Call Waiting Calls
+PSTN	SDT	SD	Special Dial Tone
+PSTN	SHOD	A1	Short Code Dial
+PSTN	SO	SO	Selection of Operator
+PSTN	STATC	A4	Feature Status Check
+PSTN	TCL	TC	Type of subscriber
+PSTN	TELE7	7K	Telephony 7 khz #add by zhao
+PSTN	TP	TP	Terminal Portability
+PSTN	UTU	UU	User to User Signalling
+PSTN	VAM	AM	Virtual Answering Machine
+PSTN	VM	VM	Voice Mail
+PSTN	WA	AA	Automatic Alarm Call (Wake-up)
+PSTN 	NAME	NA	Name Display (Associates the name of the caller with a directory number (DN)
+PSTN    ACB	AB	Anonymous Call Barring
+PSTN    ACB     A8      Automatic Callback
+PSTN    ACR     A9      Automatic Call Rejection
+PSTN    AD      AD      Abbreviated Dialling
+PSTN    ASS     AS      Absent subscriber service
+PSTN    BALL    90      Block All Outgoing&Incoming Calls
+PSTN    BLKTB   TB      Block Trunk Booking
+PSTN    CCAW    40      Cancell Call Waiting
+PSTN    CCCF    20      Customer Controlled Call Forwarding 
+PSTN    CFDF    2Q      Call Forward Default
+PSTN    CFEX	FE	Call Forwarding Expection
+PSTN    COT     CT      Control of Outgoing Traffic/Customer Originate Trace
+PSTN    CT      31      Call transfer
+PSTN    CTOT    23      Call Transfer to Operator Table
+PSTN    CTRCA   24      Call Transfer to Registered Customised Announcement 
+PSTN    CUG     61	Closed by User Group
+PSTN    DNT     IS      ISDN
+PSTN    DTM     DT      Denial Termination
+PSTN    FC      FC      Free Calls
+PSTN    HOLD    42      Call hold
+PSTN    HOTLB   HB      Hotline Billing
+PSTN    HUNT    HG	Hunt Group  
+PSTN    ITE     IT      Terminal communication mode
+PSTN    KTONE   KT      Key tone
+PSTN    LR      LR      Line Battery Reversal
+PSTN    MPTYC   52      Multi Party Conference
+PSTN    OBI     9C      Operator Determined Barring of Incoming Calls
+PSTN    OBOADM  OA      Operator Determined Barring of Outgoing Calls with Admin Keyword
+PSTN    OBOSUB  OS      Operator Determined Barring of Outgoing Calls with Sub Keyword
+PSTN    OBS     LO      Line Observation
+PSTN    OCBR	ID	Outgoing Call Barring Restriction
+PSTN    PIN     PN      PIN access
+PSTN    PR      PR      Pin reset
+PSTN    PS      PS      Priority service
+PSTN    RBWF    RB      Ring Back When Free
+PSTN    RBWFIS  RI      Ring Back When Free Inhibit Service
+PSTN    RC      RC      Routing case
+PSTN    SCA     S1      Selective Call Acceptance
+PSTN    SCF     SF      Selective Call Forward
+PSTN    SCR     S2      Selective Call Rejection
+PSTN    SEC     SC      Security code
+PSTN    SSC     1D      Speed Dial
+PSTN    STDISD  SI      STD/ISD
+PSTN    TD      TM      Temporary Disconnect
+PSTN    TDN     TD      Toll Denial
+PSTN    TS      TS      Temporary standstill phonecall
+PSTN    UDI     UD      Unrestricted digital information
+SMS	BROAD	3J	Broadcast
+SMS	EMAIL	J6	Email services
+SMS	IS41	J5	Interim Standard 41
+SMS	IVR	J9	IVR application
+SMS	MAP	J2	Mobile Application Part
+SMS	MAPMO	J4	Mobile Application Part Mobile Originated
+SMS	OPER	1J	Operator
+SMS	TAP	J7	Telocator Alpanumeric Paging Protocol
+SMS	TRM	J1	Trilogue Manager
+SMS	USEREI	J3	User External Interface
+SMS	WEB	J8	Web services
+SMS     THK1    E1      SMS Barring Service 1
+SMS     THK2    E2      SMS Barring Service 2
+SMS     THK3    E3      SMS Barring Service 3
+SMS     THK4    E4      SMS Barring Service 4
+SMS     THK5    E5      SMS Barring Service 5
+TACS	AD      AD      Abbreviated Dialling
+TACS	AICF	AI	Adjunct Immediate Call Forwarding
+TACS	AUC	AU	Authentication (Center) Services 
+TACS	CAWDR	4D	Call Waiting, Distinctive Ringback
+TACS	COFTN	DF	Call Delivery Outside Feature Transparency Network
+TACS	HLDD	HD	Hot Line Destination Digits
+TACS	LCCFDT	LC	Conditional Call Forwarding & Message Recording System Don't Answer Time
+TACS	LMINP	EX	Long MIN Paging
+TACS	LPIC	P5	Primary Interchange Carrier
+TACS	MRS	MR	Message Recording Service
+TACS	MWI	MW	Message Waiting Indicator
+TACS	SMSORIG	SM	Short Message Services Origination Restricted
+TACS	SNDALL	AO	Origiantion, Dialled Number and Termination Triggers: Send All Originations
+TACS	SPANC	SP	Subscriber Pre-Call Announcement
+TACS	TPV	2B	Transfer on No Page Response with Variable C-number
+TACS    ANT     12      Calling Number Identification Restriction
+TACS    APB     11      Calling Number Identification Presentation
+TACS    AS      AS      Alarm Service
+TACS    BLKTB   TB      Block Trunk Booking
+TACS    CAW     41      Call Waiting
+TACS    CBA-2   93      Barring of Outgoing International Calls
+TACS    CBA-6   92      Barring of All Calls
+TACS    CBA-7   95      Barring of All International Calls
+TACS    CBA-9   96      Barring of "10" for Rented Phones
+TACS    CCB     97      Code Controlled Barring 
+TACS    CTF     2I      Immediate Call Transfer with Fixed C-number
+TACS    CTV     21      Immediate Call Transfer with Variable C-number
+TACS    ENQ     51      Enquiry and Conference Service
+TACS    MC      MC      Malicious Call Trace
+TACS    MCH     72      Call Charge Order
+TACS    MIGROTH 99      TACS to GSM Migration to other GSM network
+TACS    MIGROWN 98      TACS to GSM Migration to own GSM network
+TACS    MVP     81      Mobile Voice Privacy
+TACS    PIN     PN      PIN access
+TACS    PR      PR      PIN reset 
+TACS    PS      PS      Priority services
+TACS    STD     SI      Calling area
+TACS    TBF     2Y      Transfer on Busy with Fixed C-number
+TACS    TBV     29      Transfer on Busy with Variable C-number
+TACS    TNF     2N      Transfer on No Reply with Fixed C-number
+TACS    TNV     2A      Transfer on No Reply with Variable C-number

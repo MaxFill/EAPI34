@@ -1,0 +1,10 @@
+# General macro resources
+program:	java_macro_general
+display_new_services:    	0	# 1=yes,  0=no
+display_old_services:    	0     	# 1=yes,  0=no
+macro_config_dir:        	C:\javawork\FSOM\JAVA_EAPI/src/main/resources/config
+max_interruption_wait_time: 	5000	# milliseconds (min. 1000 ms)
+new_supp_coding:         	1	# 1=yes,  0=no
+tracelevel:              	60	# 0..99, 0=off, 99=all
+use_mml_timestamp: 		0	# 1=yes,  0=no
+
